@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script>
+        function login(event){
+            event.preventDefault();
+            const email = document.getElementById("email").value;
+            localStorage.setItem("userEmail", email);
+            window.location.href="loginn.html";
+        }
+    </script>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body style="text-align: center;">
+   <div class="content">
+    <div class="login">
+        <form onsubmit="login(event)">
+            <div class="title">
+                <h1>SignIn Page</h1>
+            </div>
+            <div class="input">
+                <label>Email</label>
+                <input id="email" type="email" placeholder="Enter a Email"size="20" required/><br><br>
+            </div>
+            <div class="input">
+                <label>Password</label>
+                <input type="password" placeholder="Enter the pwd"size="20" required/><br><br>
+            </div>
+            <div class="loginbtn">
+                <button type="submit">login</button>
+            </div>
+            <div class="google">
+                <button type="button">continue with google</button> 
+            </div>
+            <div class="Sign-up">
+            </div>
+        </form>
+    </div>
+
+    </div>
+
+   </div>
+</body>
+</html>

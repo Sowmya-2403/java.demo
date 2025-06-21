@@ -1,0 +1,14 @@
+h1{
+    color: rgb(127, 172, 255);
+}
+.mydemo{
+    color: brown;
+}
+#demo{
+    color: rgb(226, 43, 168);
+}
+.days{
+    color: rgb(214, 43, 226);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5%;
+}

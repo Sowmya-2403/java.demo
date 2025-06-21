@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+.b1{
+    border-style: dashed;
+    border-color: aqua;
+}
+.b2{
+    border-style: dotted;
+}
+.b3{
+    border-style: star;
+    border-color: blueviolet;
+    border-width: lem;
+    border-bottom-left-radius: 50px;
+}
+p{
+    display: flex;
+}
+button{
+    
+}
